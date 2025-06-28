@@ -4,28 +4,28 @@
  * @author: Jose Beita Cascante.
  * @version V0.1
  */
-var MinMax = require("users/Jo13bc/core:indicator/MinMax.js");
-var Response = require("users/Jo13bc/core:Response.js");
+var MinMax = require("users/BAM/SisAgroV1:core/indicator/MinMax.js");
+var Response = require("users/BAM/SisAgroV1:core/Response.js");
 var indicators = {
   core: {
-    0: require("users/Jo13bc/core:indicator/Temperature.js"),
-    1: require("users/Jo13bc/core:indicator/Land.js"),
-    2: require("users/Jo13bc/core:indicator/Elevation.js"),
-    3: require("users/Jo13bc/core:indicator/LandUse.js"),
-    4: require("users/Jo13bc/core:indicator/WaterRecovery.js"),
-    5: require("users/Jo13bc/core:indicator/Evapotranspiration.js"),
-    6: require("users/Jo13bc/core:indicator/Precipitation.js"),
-    7: require("users/Jo13bc/core:indicator/HidricBalance.js")
+    0: require("users/BAM/SisAgroV1:core/indicator/Temperature.js"),
+    1: require("users/BAM/SisAgroV1:core/indicator/Land.js"),
+    2: require("users/BAM/SisAgroV1:core/indicator/Elevation.js"),
+    3: require("users/BAM/SisAgroV1:core/indicator/LandUse.js"),
+    4: require("users/BAM/SisAgroV1:core/indicator/WaterRecovery.js"),
+    5: require("users/BAM/SisAgroV1:core/indicator/Evapotranspiration.js"),
+    6: require("users/BAM/SisAgroV1:core/indicator/Precipitation.js"),
+    7: require("users/BAM/SisAgroV1:core/indicator/HidricBalance.js")
   },
   presentation: {
-    0: require("users/Jo13bc/presentation:indicator/Temperature.js"),
-    1: require("users/Jo13bc/presentation:indicator/Land.js"),
-    2: require("users/Jo13bc/presentation:indicator/Elevation.js"),
-    3: require("users/Jo13bc/presentation:indicator/LandUse.js"),
-    4: require("users/Jo13bc/presentation:indicator/WaterRecovery.js"),
-    5: require("users/Jo13bc/presentation:indicator/Evapotranspiration.js"),
-    6: require("users/Jo13bc/presentation:indicator/Precipitation.js"),
-    7: require("users/Jo13bc/presentation:indicator/HidricBalance.js")
+    0: require("users/BAM/SisAgroV1:presentation/indicator/Temperature.js"),
+    1: require("users/BAM/SisAgroV1:presentation/indicator/Land.js"),
+    2: require("users/BAM/SisAgroV1:presentation/indicator/Elevation.js"),
+    3: require("users/BAM/SisAgroV1:presentation/indicator/LandUse.js"),
+    4: require("users/BAM/SisAgroV1:presentation/indicator/WaterRecovery.js"),
+    5: require("users/BAM/SisAgroV1:presentation/indicator/Evapotranspiration.js"),
+    6: require("users/BAM/SisAgroV1:presentation/indicator/Precipitation.js"),
+    7: require("users/BAM/SisAgroV1:presentation/indicator/HidricBalance.js")
   }
 }
 

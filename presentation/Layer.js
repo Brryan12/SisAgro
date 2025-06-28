@@ -5,8 +5,8 @@
  * @version V0.1
  */
 
-var Utils = require("users/Jo13bc/core:Utils.js");
-var Configuration = require("users/Jo13bc/presentation:Configuration.js");
+var Utils = require("users/BAM/SisAgroV1:core/Utils.js");
+var Configuration = require("users/BAM/SisAgroV1:presentation/Configuration.js");
 var Label = Configuration.label;
 var Style = Configuration.style;
 var zone = Label.filter.zone,

@@ -5,16 +5,16 @@
  * @version V0.1
  */
  
-var Response = require("users/Jo13bc/core:Response.js");
+var Response = require("users/BAM/SisAgroV1:core/Response.js");
 var indicators = {
-  0: require("users/Jo13bc/core:indicator/Temperature.js"),
-  1: require("users/Jo13bc/core:indicator/Land.js"),
-  2: require("users/Jo13bc/core:indicator/Elevation.js"),
-  3: require("users/Jo13bc/core:indicator/LandUse.js"),
-  4: require("users/Jo13bc/core:indicator/WaterRecovery.js"),
-  5: require("users/Jo13bc/core:indicator/Evapotranspiration.js"),
-  6: require("users/Jo13bc/core:indicator/Precipitation.js"),
-  7: require("users/Jo13bc/core:indicator/HidricBalance.js")
+  0: require("users/BAM/SisAgroV1:core/indicator/Temperature.js"),
+  1: require("users/BAM/SisAgroV1:core/indicator/Land.js"),
+  2: require("users/BAM/SisAgroV1:core/indicator/Elevation.js"),
+  3: require("users/BAM/SisAgroV1:core/indicator/LandUse.js"),
+  4: require("users/BAM/SisAgroV1:core/indicator/WaterRecovery.js"),
+  5: require("users/BAM/SisAgroV1:core/indicator/Evapotranspiration.js"),
+  6: require("users/BAM/SisAgroV1:core/indicator/Precipitation.js"),
+  7: require("users/BAM/SisAgroV1:core/indicator/HidricBalance.js")
 };
 
 function fetch(id) {
@@ -31,8 +31,8 @@ function search(filter, resolve, reject) {
   Response.data(resp, resolve, reject);
 }
 
-var Data = require("users/Jo13bc/core:Data.js");
-var Configuration = require("users/Jo13bc/presentation:Configuration.js");
+var Data = require("users/BAM/SisAgroV1:core/Data.js");
+var Configuration = require("users/BAM/SisAgroV1:presentation/Configuration.js");
 var Style = Configuration.style;
 
 var longitude = -85.56207;

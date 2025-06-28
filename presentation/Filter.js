@@ -5,7 +5,7 @@
  * @version V0.1
  */
 
-var Configuration = require("users/Jo13bc/presentation:Configuration.js");
+var Configuration = require("users/BAM/SisAgroV1:presentation/Configuration.js");
 
 function addFilter(context, name, values, filtered) {
   context[name] = {

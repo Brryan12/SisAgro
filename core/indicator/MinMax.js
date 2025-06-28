@@ -5,9 +5,9 @@
  * @version V0.1
  */
 
-var Data = require("users/Jo13bc/core:Data.js");
-var Utils = require("users/Jo13bc/core:Utils.js");
-var Response = require("users/Jo13bc/core:Response.js");
+var Data = require("users/BAM/SisAgroV1:core/Data.js");
+var Utils = require("users/BAM/SisAgroV1:core/Utils.js");
+var Response = require("users/BAM/SisAgroV1:core/Response.js");
 
 function process(dataset_) {
   var dataset = dataset_.map(function (img) {

@@ -6,8 +6,8 @@
  * @version V0.1
  */
 
-var Response = require("users/Jo13bc/core:Response.js");
-var Data = require("users/Jo13bc/core:Data.js");
+var Response = require("users/BAM/SisAgroV1:core/Response.js");
+var Data = require("users/BAM/SisAgroV1:core/Data.js");
 
 var temperature = {
   layer: function (data) {

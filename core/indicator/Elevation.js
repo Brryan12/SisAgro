@@ -5,7 +5,7 @@
  * @version V0.1
  */
 
-var Response = require("users/Jo13bc/core:Response.js");
+var Response = require("users/BAM/SisAgroV1:core/Response.js");
 
 function data() {
   var dataset = ee.ImageCollection("JAXA/ALOS/AW3D30/V3_2").select(["DSM"], ["dsm"]);

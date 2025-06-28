@@ -5,7 +5,7 @@
  * @version V0.1
  */
 
-var Response = require("users/Jo13bc/core:Response.js");
+var Response = require("users/BAM/SisAgroV1:core/Response.js");
 
 function data(filter) {
   var name = "COPERNICUS/Landcover/100m/Proba-V-C3/Global/" + filter.year.label;

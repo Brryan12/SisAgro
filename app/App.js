@@ -5,15 +5,15 @@
  * @version V0.1
  */
 
-var Filter = require("users/Jo13bc/presentation:Filter.js");
-var Layer = require("users/Jo13bc/presentation:Layer.js");
-var Interface = require("users/Jo13bc/presentation:Interface.js");
-var Configuration = require("users/Jo13bc/presentation:Configuration.js");
-var Alert = require("users/Jo13bc/presentation:Alert.js");
+var Filter = require("users/BAM/SisAgroV1:presentation/Filter.js");
+var Layer = require("users/BAM/SisAgroV1:presentation/Layer.js");
+var Interface = require("users/BAM/SisAgroV1:presentation/Interface.js");
+var Configuration = require("users/BAM/SisAgroV1:presentation/Configuration.js");
+var Alert = require("users/BAM/SisAgroV1:presentation/Alert.js");
 var Style = Configuration.style;
 var Message = Configuration.message;
-var Data = require("users/Jo13bc/core:Data.js");
-var Main = require("users/Jo13bc/presentation:Main.js");
+var Data = require("users/BAM/SisAgroV1:core/Data.js");
+var Main = require("users/BAM/SisAgroV1:presentation/Main.js");
 
 var app = {};
 

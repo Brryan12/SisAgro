@@ -5,10 +5,10 @@
  * @version V0.1
  */
 
-var Configuration = require("users/Jo13bc/presentation:Configuration.js");
-var UserGuide = require("users/Jo13bc/presentation:UserGuide.js");
+var Configuration = require("users/BAM/SisAgroV1:presentation/Configuration.js");
+var UserGuide = require("users/BAM/SisAgroV1:presentation/UserGuide.js");
 var messageType = { success: "success", error: "error" };
-var ICONS = require("users/Jo13bc/core:Data.js").ICONS;
+var ICONS = require("users/BAM/SisAgroV1:core/Data.js").ICONS;
 var NUMBER_REGEX = /^[-]?([0-9]+(\.[0-9]+)?)?$/;
 
 function panel(widgets, style, layout) {

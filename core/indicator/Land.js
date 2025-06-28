@@ -5,7 +5,7 @@
  * @version V0.1
  */
 
-var Response = require("users/Jo13bc/core:Response.js");
+var Response = require("users/BAM/SisAgroV1:core/Response.js");
 
 function data() {
   var image = ee.Image("OpenLandMap/SOL/SOL_CLAY-WFRACTION_USDA-3A1A1A_M/v02")

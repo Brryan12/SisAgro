@@ -5,9 +5,9 @@
  * @version V0.1
  */
 
-var Utils = require("users/Jo13bc/core:Utils.js");
-var Response = require("users/Jo13bc/core:Response.js");
-var scalePixel = require("users/Jo13bc/presentation:Configuration.js").scales.cloudyPixelPercentage;
+var Utils = require("users/BAM/SisAgroV1:core/Utils.js");
+var Response = require("users/BAM/SisAgroV1:core/Response.js");
+var scalePixel = require("users/BAM/SisAgroV1:presentation/Configuration.js").scales.cloudyPixelPercentage;
 
 function maskS2clouds(image) {
   var qa = image.select('QA60');
