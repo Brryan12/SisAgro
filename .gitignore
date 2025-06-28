@@ -1,33 +1,30 @@
-# .gitignore para Google Earth Engine
+# .gitignore para GitHub
 # Archivos de sistema
 .DS_Store
 Thumbs.db
 
-# Logs básicos
+# Logs
 *.log
+logs/
+
+# Dependencias de Node.js (si aplica)
+node_modules/
+npm-debug.log*
 
 # Archivos temporales
 *.tmp
 *.temp
 
-# Archivos de configuración local sensibles
+# Archivos de configuración local
 .env
+.env.local
+.env.production
 
-# Archivos de IDE que pueden causar conflictos
-.vscode/settings.json
+# Archivos de IDE
+.vscode/
 .idea/
+*.swp
+*.swo
 
-# Para GEE (Google Earth Engine):
-# Excluimos la carpeta resources/ para evitar archivos grandes
-# en el repositorio de Google (que tiene límites de tamaño)
-resources/
-
-# También excluimos archivos grandes específicos por si acaso
-*.zip
-*.tif
-*.pdf
-
-# Excluir herramientas de gestión de .gitignore del repositorio GEE
-gi
-.gitignore*
-*.gitignore*
+# Para GitHub: incluimos la carpeta resources/
+# (el repositorio público puede mostrar los recursos)
