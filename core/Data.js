@@ -5,7 +5,7 @@
  * @version V0.1
  */
 
-var ASSETS_ROOT = "projects/ee-jo13bc-hello-world/assets/";
+var ASSETS_ROOT = "projects/bryan01/assets/";
 var ASSETS_ZONES = ASSETS_ROOT + "zones/";
 var ASSETS_ICONS = ASSETS_ROOT + "icons/";
 var NOW = new Date();

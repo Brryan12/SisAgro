@@ -5,7 +5,7 @@
  * @version V0.1
  */
 
-var ASSETS_ROOT = "projects/ee-jo13bc-hello-world/assets/cantones_costa_rica";
+var ASSETS_ROOT = "projects/bryan01/assets/cantones_costa_rica";
 var MAX_ERROR = 1;
 //
 var Data = require("users/BAM/SisAgroV1:core/Data.js");
