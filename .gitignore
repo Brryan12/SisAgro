@@ -1,0 +1,30 @@
+# .gitignore para GitHub
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Dependencias de Node.js (si aplica)
+node_modules/
+npm-debug.log*
+
+# Archivos temporales
+*.tmp
+*.temp
+
+# Archivos de configuración local
+.env
+.env.local
+.env.production
+
+# Archivos de IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Para GitHub: incluimos la carpeta resources/
+# (el repositorio público puede mostrar los recursos)
